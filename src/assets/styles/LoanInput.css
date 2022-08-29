@@ -1,0 +1,95 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+:root {
+    --text:#4b4949;
+}
+.col-lg-9,
+.col-lg-8,
+.col-lg-4 {
+    border:1px solid grey;
+    background-color: #f2f2f2;
+}
+.col-lg-6 {
+    padding:0 !important;
+    /* border:1px solid #ccc !important; */
+}
+label {
+    margin:0;
+}
+.app-title {
+    border-bottom: 5px double #e8e8e8;
+    padding:0 !important;
+    text-align: center;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 1rem 1.8rem;
+}
+main {
+    border:4px dashed #ccc;
+    background-color: #f2f2f2;
+    padding:1.3rem 0;
+}
+.rounded {
+    border:1px solid #ccc !important;
+}
+.loan-scale {
+    display:flex;
+    position:relative;
+}
+.loan-scale-item {
+    width:35px;
+    height:10px;
+    position:absolute;
+    font-size: 0.8rem;
+    line-height: 1 !important;
+    margin-left:-18px;
+    margin-top:-3px;
+    color:var(--text);
+}
+
+.loan-amount-marker {
+    line-height: 1.5;
+}
+.loan-calculate {
+    text-align: center;
+}
+.loan-calc-item {
+    height:33.333%;
+    line-height: 1;
+    padding:1rem;
+}
+.loan-calc-item:not(:last-child) {
+    border-bottom:1px dashed grey;
+}
+.loan-calc-title {
+    font-size:1.1rem;
+    color:var(--text);
+}
+.loan-emi-amt {
+    font-size:1.5rem;
+    font-weight: 600;
+    padding:0;
+}
+
+.chart-container {
+    padding:0.8rem;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-inner-outer-button {
+    visibility: hidden;
+}
+
